@@ -1,0 +1,6 @@
+string = input('Enter a string: ')
+number = 0
+for i in string:
+    if i.isnumeric():
+        number = str(number) + str(int(i))
+print('Numbers in a string: ' + number[1:])
